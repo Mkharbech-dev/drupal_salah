@@ -1,0 +1,20 @@
+uuid: 91c6b24c-5933-4283-86c3-39b1fe806ed8
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - olivero
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: olivero_page_title
+theme: olivero
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

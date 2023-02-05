@@ -1,0 +1,23 @@
+uuid: c9c7fba3-0f1d-4871-9580-f5e91a306c69
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - breeze
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: breeze_search_form_wide
+theme: breeze
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulaire de recherche (large)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

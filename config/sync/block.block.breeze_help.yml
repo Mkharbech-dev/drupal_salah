@@ -1,0 +1,22 @@
+uuid: 48153e26-a4d6-4a9a-8c8c-53e5b3b1a0c5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - breeze
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: breeze_help
+theme: breeze
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  label_display: '0'
+  provider: help
+visibility: {  }

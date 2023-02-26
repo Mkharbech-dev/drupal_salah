@@ -3,7 +3,7 @@ core_version_requirement: ^8 || ^9
 name: podtalk
 core: "8.x"
 description: "integration de mon template podtalk"
-base theme: bootstrap
+base theme: false
 
 libraries:
   - podtalk/global-styling

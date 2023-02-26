@@ -4,6 +4,6 @@ features:
   comment_user_verification: true
   favicon: true
   logo: true
-favicon:
+logo:
   use_default: false
   path: 'themes/custom/podtalk/pod-talk-logo.png'

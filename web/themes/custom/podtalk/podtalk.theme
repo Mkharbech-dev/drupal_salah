@@ -3,3 +3,7 @@
 function podtalk_preprocess(&$variables, $hook) {
     $variables['base_path'] = base_path();
 }
+
+function podtalk_preprocess_html_front(&$varaibles){
+  $varaibles['site_copy'] = podtalk_get_setting('site_copy');
+}

@@ -1,24 +1,22 @@
-uuid: 5b725656-2219-4e84-b434-d978bbc01735
+uuid: e3470765-1306-4981-895e-b0de7e709b5f
 langcode: fr
-status: false
+status: true
 dependencies:
   config:
-    - system.menu.tools
+    - system.menu.custom-menu
   module:
     - system
   theme:
     - podtalk
-_core:
-  default_config_hash: SrPItPkAevw9hGX_v5AfsVyw6vkoog7ZVLSJYqwsBHc
-id: podtalk_tools
+id: custommenu
 theme: podtalk
 region: navigation
 weight: 0
 provider: null
-plugin: 'system_menu_block:tools'
+plugin: 'system_menu_block:custom-menu'
 settings:
-  id: 'system_menu_block:tools'
-  label: Tools
+  id: 'system_menu_block:custom-menu'
+  label: 'custom menu'
   label_display: visible
   provider: system
   level: 1

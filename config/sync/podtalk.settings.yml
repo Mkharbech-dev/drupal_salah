@@ -1,0 +1,20 @@
+_core:
+  default_config_hash: X2ZlEv-kriKTUlFr3vt2xIMM-CEirX3mYgXLZ73M8y4
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+  logo: true
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: themes/custom/podtalk/pod-talk-logo.png
+  url: /drupal_salah/web/themes/custom/podtalk/pod-talk-logo.png
+  use_default: false
+logo:
+  path: ''
+  url: ''
+  use_default: true
+schemas:
+  bootstrap: 8000
+  podtalk: 8000

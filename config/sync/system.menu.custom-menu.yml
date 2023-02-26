@@ -1,0 +1,8 @@
+uuid: e2312c80-15b4-44d6-b1b1-b54b15529553
+langcode: fr
+status: true
+dependencies: {  }
+id: custom-menu
+label: 'custom menu'
+description: ''
+locked: false

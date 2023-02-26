@@ -1,0 +1,5 @@
+<?php
+
+function podtalk_preprocess(&$variables, $hook) {
+    $variables['base_path'] = base_path();
+}

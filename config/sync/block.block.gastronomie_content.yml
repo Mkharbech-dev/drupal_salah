@@ -1,0 +1,22 @@
+uuid: a264107d-7eab-4cf5-aa52-2c17c8fb6160
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - gastronomie
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: gastronomie_content
+theme: gastronomie
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

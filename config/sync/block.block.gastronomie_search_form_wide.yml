@@ -1,0 +1,23 @@
+uuid: da0cc013-93b5-41a0-9382-3d6265aa7bfe
+langcode: fr
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - gastronomie
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: gastronomie_search_form_wide
+theme: gastronomie
+region: header
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulaire de recherche (large)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

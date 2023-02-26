@@ -1,0 +1,22 @@
+uuid: 3aa488ae-b2c2-4605-9d78-8d4c48512fdd
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - podtalk
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: podtalk_local_tasks
+theme: podtalk
+region: navigation
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

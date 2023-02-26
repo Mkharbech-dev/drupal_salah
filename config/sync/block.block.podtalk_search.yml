@@ -1,0 +1,23 @@
+uuid: ba24be31-83b7-4ee0-81f7-f739006421a0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - podtalk
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: podtalk_search
+theme: podtalk
+region: navigation
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 1af6bbed-f8ca-4c55-ad01-3fda42d5bc7b
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - gastronomie
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: gastronomie_site_branding
+theme: gastronomie
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

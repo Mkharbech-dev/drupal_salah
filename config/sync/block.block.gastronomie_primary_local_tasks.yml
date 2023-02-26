@@ -1,0 +1,22 @@
+uuid: f5af0584-5417-4074-ba39-68cbea34498a
+langcode: fr
+status: false
+dependencies:
+  theme:
+    - gastronomie
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: gastronomie_primary_local_tasks
+theme: gastronomie
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

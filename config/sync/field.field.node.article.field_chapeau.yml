@@ -1,0 +1,19 @@
+uuid: 5a226fc1-52e5-4232-95ec-003c1b51a49a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chapeau
+    - node.type.article
+id: node.article.field_chapeau
+field_name: field_chapeau
+entity_type: node
+bundle: article
+label: Chapeau
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

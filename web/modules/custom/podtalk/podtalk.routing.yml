@@ -1,0 +1,7 @@
+podtalk.recetteList:
+  path: '/listerecettes'
+  defaults:
+    _controller: '\Drupal\podtalk\Controller\recetteController::recetteList'
+    _title: 'les meilleures recettes du Maroc'
+  requirements:
+    _permission: 'access content'

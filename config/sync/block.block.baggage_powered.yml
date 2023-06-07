@@ -1,0 +1,22 @@
+uuid: 7fb3ad8d-0960-4d4f-9a10-646ff3f2f56e
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - baggage
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: baggage_powered
+theme: baggage
+region: footer
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

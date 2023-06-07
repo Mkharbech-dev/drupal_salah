@@ -1,0 +1,22 @@
+uuid: 17e5264e-1a3c-4705-ba4f-82e278e78d72
+langcode: fr
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - baggage
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: baggage_help
+theme: baggage
+region: navigation
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

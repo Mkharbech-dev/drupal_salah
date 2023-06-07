@@ -1,0 +1,24 @@
+uuid: 9fb95ff9-f8cb-4423-85ca-77bde2688fff
+langcode: fr
+status: true
+dependencies:
+  module:
+    - block_class
+    - demo_baggage
+  theme:
+    - baggage
+third_party_settings:
+  block_class:
+    classes: 'text-center fw-bold'
+id: copy_right_block
+theme: baggage
+region: footer
+weight: 0
+provider: null
+plugin: demo_baggage_CopyRightBlock
+settings:
+  id: demo_baggage_CopyRightBlock
+  label: CopyRightBlock
+  label_display: '0'
+  provider: demo_baggage
+visibility: {  }

@@ -1,0 +1,23 @@
+global-styling:
+  version: 1.0.0
+  css:
+    theme:
+      assets/css/bootstrap.min.css: { minified: true }
+      assets/css/bootstrap-icon.css: {}
+      assets/css/owl.carousel.min.css: { minified: true }
+      assets/css/owl.theme.default.min.css: { minified: true }
+      assets/css/templatemo-pod-talk.css: {}
+      assets/css/style.css: {}
+  js:
+    assets/js/app.js: {}
+    assets/js/bootstrap.bundle.min.js: { minified: true }
+    assets/js/custom.js: {}
+    assets/js/owl.carousel.min.js: { minified: true }
+    assets/js/jquery.min.js: { minified: true }
+  dependencies:
+    - core/jquery
+
+demo_baggage.my_library:
+  dependencies:
+    - core/drupal.ajax
+    - core/jquery.form

@@ -1,0 +1,20 @@
+uuid: 247c97dd-bdb5-41a1-bd8c-4b0c5a8652cd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - demo_baggage
+  theme:
+    - baggage
+id: exampleheroblock
+theme: baggage
+region: footer
+weight: -7
+provider: null
+plugin: demo_baggage_héroBlock
+settings:
+  id: demo_baggage_héroBlock
+  label: 'Example Héro block'
+  label_display: visible
+  provider: demo_baggage
+visibility: {  }

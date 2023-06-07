@@ -1,0 +1,4 @@
+name: "Module baggage"
+description: "Module de baggage en drupal9"
+type: module
+core_version_requirement: ^9 || ^10

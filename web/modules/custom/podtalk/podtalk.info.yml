@@ -1,4 +1,0 @@
-name: "Module podtalk"
-description: "Module de podatalk en drupal9"
-type: module
-core_version_requirement: ^9 || ^10

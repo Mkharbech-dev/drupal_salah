@@ -1,0 +1,21 @@
+uuid: dd4a3e69-62b5-45b4-bb70-95f548e185d9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - demo_baggage
+  theme:
+    - baggage
+id: helloblock
+theme: baggage
+region: content
+weight: -6
+provider: null
+plugin: demo_baggage_HelloBlock
+settings:
+  id: demo_baggage_HelloBlock
+  label: 'Hello block'
+  label_display: visible
+  provider: demo_baggage
+  block_firstname: 'salah eddine'
+visibility: {  }

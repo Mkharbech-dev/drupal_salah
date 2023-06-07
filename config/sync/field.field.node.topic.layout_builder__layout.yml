@@ -1,0 +1,21 @@
+uuid: 6416a827-3d37-4484-9834-fe6d4281b281
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.topic
+  module:
+    - layout_builder
+id: node.topic.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: topic
+label: Affichage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

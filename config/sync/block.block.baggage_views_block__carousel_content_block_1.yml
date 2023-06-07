@@ -1,0 +1,29 @@
+uuid: 2d889445-96f3-4428-ba80-329804f0be87
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.carousel_content
+  module:
+    - system
+    - views
+  theme:
+    - baggage
+id: baggage_views_block__carousel_content_block_1
+theme: baggage
+region: content
+weight: -8
+provider: null
+plugin: 'views_block:carousel_content-block_1'
+settings:
+  id: 'views_block:carousel_content-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

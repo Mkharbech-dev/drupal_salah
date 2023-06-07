@@ -5,7 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.topic.body
+    - field.field.node.topic.field_commentaire
     - field.field.node.topic.field_image_topic
+    - field.field.node.topic.layout_builder__layout
     - image.style.medium
     - node.type.topic
   module:
@@ -42,4 +44,6 @@ content:
     weight: 0
     region: content
 hidden:
+  field_commentaire: true
   langcode: true
+  layout_builder__layout: true

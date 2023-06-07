@@ -1,0 +1,8 @@
+demo_baggage.bienvenue:
+  title: bienvenue
+  description: 'Lien vers la page bienvenue'
+  menu_name: main
+  parent: system.admin_structure
+  route_name: demo_baggage.bienvenue
+  expanded: True
+  weight: 100

@@ -1,0 +1,76 @@
+demo_baggage.recetteList:
+  path: '/listerecettes'
+  defaults:
+    _controller: '\Drupal\demo_baggage\Controller\recetteController::recetteList'
+    _title: 'les meilleures recettes du Maroc'
+  requirements:
+    _permission: 'access content'
+
+
+demo_baggage.bienvenue:
+  path: '/bienvenue/{param}'
+  defaults:
+    _controller: '\Drupal\demo_baggage\Controller\salahController::bienvenue'
+    param: null
+  requirements:
+    _permission: 'access content'
+    param: '[a-za-z]+'
+
+
+demo_baggage.bonjour:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\demo_baggage\Controller\HelloController::bonjour'
+    _title: 'mon service pérsonalisé qui dit bonjour'
+  requirements:
+    _permission: 'access content'
+
+
+demo_baggage.formulaire:
+  path: '/example-form'
+  defaults:
+    _form: '\Drupal\demo_baggage\Form\ExampleForm'
+    _title: 'example-form'
+  requirements:
+    _permission: 'access content'
+
+demo_baggage.ajaxheroform:
+  path: '/ajax-form'
+  defaults:
+    _form: '\Drupal\demo_baggage\Form\AjaxHeroForm'
+    _title: 'Ajax hero form battle'
+  requirements:
+    _permission: 'access content'
+
+demo_baggage.salahformajax:
+  path: '/salah-form'
+  defaults:
+    _form: '\Drupal\demo_baggage\Form\SalahFormAjax'
+    _title: 'Salah form Ajax'
+  requirements:
+    _permission: 'access content'
+
+demo_baggage.heroform:
+  path: '/hero-form'
+  defaults:
+    _form: '\Drupal\demo_baggage\Form\HeroForm'
+    _title: 'Qui va gagner'
+  requirements:
+    _permission: 'access content'
+
+demo_baggage.contact_form:
+  path: '/contact-form'
+  defaults:
+    _form: '\Drupal\demo_baggage\Form\ContactForm'
+    _title: 'formulaire de contact'
+  requirements:
+    _permission: 'access content'
+
+
+demo_baggage.requests:
+  path: '/requetes-contenu'
+  defaults:
+    _controller: '\Drupal\demo_baggage\Controller\salahController::requests'
+    _title: 'Requetes sur les contenus'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,25 @@
+uuid: 2ebe078d-1b1c-4ff0-8939-e039290ecb22
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.custom-menu
+  module:
+    - system
+  theme:
+    - baggage
+id: baggage_custommenu
+theme: baggage
+region: navigation
+weight: -9
+provider: null
+plugin: 'system_menu_block:custom-menu'
+settings:
+  id: 'system_menu_block:custom-menu'
+  label: 'custom menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

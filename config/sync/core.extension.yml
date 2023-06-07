@@ -19,6 +19,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  demo_baggage: 0
   devel: 0
   dynamic_page_cache: 0
   editor: 0
@@ -30,13 +31,19 @@ module:
   help: 0
   history: 0
   image: 0
+  jquery_ui: 0
+  jquery_ui_autocomplete: 0
+  jquery_ui_menu: 0
   language: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   locale: 0
   media: 0
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  module_filter: 0
   mysql: 0
   node: 0
   options: 0
@@ -44,6 +51,7 @@ module:
   path: 0
   path_alias: 0
   responsive_image: 0
+  scheduler: 0
   search: 0
   shortcut: 0
   system: 0
@@ -63,6 +71,7 @@ theme:
   claro: 0
   bootstrap: 0
   breeze: 0
-  gastronomie: 0
   podtalk: 0
+  bartik: 0
+  baggage: 0
 profile: standard

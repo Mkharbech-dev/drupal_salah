@@ -1,6 +1,6 @@
 uuid: 9c5c4512-518c-4246-b2cd-7302c5dbe315
 langcode: fr
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: podtalk_content
 theme: podtalk
 region: content
-weight: -8
+weight: -9
 provider: null
 plugin: system_main_block
 settings:

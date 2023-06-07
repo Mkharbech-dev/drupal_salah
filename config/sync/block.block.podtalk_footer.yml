@@ -13,7 +13,7 @@ _core:
 id: podtalk_footer
 theme: podtalk
 region: footer
-weight: 0
+weight: -9
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

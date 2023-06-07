@@ -1,0 +1,23 @@
+uuid: 3306291b-5041-49bb-8193-43b25ed289ab
+langcode: fr
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - baggage
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: baggage_search
+theme: baggage
+region: navigation
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

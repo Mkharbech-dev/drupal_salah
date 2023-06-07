@@ -1,0 +1,22 @@
+uuid: 2501f74a-07a9-4242-8a7c-a49bf647c462
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - baggage
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: baggage_breadcrumbs
+theme: baggage
+region: navigation
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

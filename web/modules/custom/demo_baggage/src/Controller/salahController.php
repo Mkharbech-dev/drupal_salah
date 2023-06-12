@@ -51,9 +51,14 @@ class salahController extends ControllerBase{
     $markup .= '</br> l\'id qui a le contenu de type article de base:' . implode(', ',$filtred_article_nids );
     $markup .= '</br> les ids des contenus dont le user est Admin:' . implode(', ',$filtred_admin_nids );
 
-    //$node = Node::load(reset( $filtred_topic_nids));
-    //$markup .= '<br><br>';
-    //$markup .= '</br> le corps du contenu qui a le titre Fitness est :' . $node->field_image_topic->getValue();
+    $nodes = Node::loadMultiple($filtred_topic_nids);
+    $markup .= '<br><br>';
+
+    foreach ($nodes as $node){
+      $markup .= '<br><br>';
+      $markup .= 'la date de creation du contenu de type topic qui a id :'. $node->nid->value.' est ' . $node->field_date_de_creation->value ;
+    }
+
 
     $build = array(
       '#type' => 'markup',

@@ -5,12 +5,14 @@ dependencies:
   config:
     - field.field.node.topic.body
     - field.field.node.topic.field_commentaire
+    - field.field.node.topic.field_date_de_creation
     - field.field.node.topic.field_image_topic
     - field.field.node.topic.layout_builder__layout
     - image.style.thumbnail
     - node.type.topic
   module:
     - comment
+    - datetime
     - image
     - path
     - scheduler
@@ -39,6 +41,12 @@ content:
   field_commentaire:
     type: comment_default
     weight: 123
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_date_de_creation:
+    type: datetime_default
+    weight: 124
     region: content
     settings: {  }
     third_party_settings: {  }

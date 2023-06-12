@@ -3,14 +3,17 @@ langcode: fr
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.topic.body
     - field.field.node.topic.field_commentaire
+    - field.field.node.topic.field_date_de_creation
     - field.field.node.topic.field_image_topic
     - field.field.node.topic.layout_builder__layout
     - image.style.medium
     - node.type.topic
   module:
     - comment
+    - datetime
     - image
     - layout_builder
     - layout_discovery
@@ -49,7 +52,7 @@ third_party_settings:
                 label: hidden
                 settings: {  }
                 third_party_settings: {  }
-            weight: 1
+            weight: 2
             additional: {  }
           fa91023f-7ed3-4afe-909c-d395273b6d95:
             uuid: fa91023f-7ed3-4afe-909c-d395273b6d95
@@ -68,7 +71,7 @@ third_party_settings:
                   image_loading:
                     attribute: lazy
                 third_party_settings: {  }
-            weight: 2
+            weight: 3
             additional: {  }
           4f67fd33-4b00-47ed-94d5-4d0099a88bd7:
             uuid: 4f67fd33-4b00-47ed-94d5-4d0099a88bd7
@@ -85,7 +88,24 @@ third_party_settings:
                   view_mode: default
                   pager_id: 0
                 third_party_settings: {  }
-            weight: 3
+            weight: 4
+            additional: {  }
+          b1c66505-7779-49f5-a889-839cd0d919ae:
+            uuid: b1c66505-7779-49f5-a889-839cd0d919ae
+            region: content
+            configuration:
+              id: 'field_block:node:topic:field_date_de_creation'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: datetime_default
+                label: above
+                settings:
+                  timezone_override: ''
+                  format_type: medium
+                third_party_settings: {  }
+            weight: 1
             additional: {  }
         third_party_settings: {  }
 id: node.topic.default
@@ -108,6 +128,15 @@ content:
       pager_id: 0
     third_party_settings: {  }
     weight: 103
+    region: content
+  field_date_de_creation:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 104
     region: content
   field_image_topic:
     type: image

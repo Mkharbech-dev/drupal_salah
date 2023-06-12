@@ -1,0 +1,24 @@
+uuid: de6079c5-d401-49c0-aca5-151f5cce7e23
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_de_creation
+    - node.type.topic
+  module:
+    - datetime
+id: node.topic.field_date_de_creation
+field_name: field_date_de_creation
+entity_type: node
+bundle: topic
+label: 'date de creation'
+description: 'date de creation'
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

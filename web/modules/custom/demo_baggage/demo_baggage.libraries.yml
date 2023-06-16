@@ -20,4 +20,4 @@ global-styling:
 demo_baggage.my_library:
   dependencies:
     - core/drupal.ajax
-    - core/jquery.form
+

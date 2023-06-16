@@ -60,6 +60,8 @@ module:
   toolbar: 0
   tour: 0
   update: 0
+  upgrade_rector: 0
+  upgrade_status: 0
   user: 0
   views_ui: 0
   content_translation: 10
@@ -72,6 +74,5 @@ theme:
   bootstrap: 0
   breeze: 0
   podtalk: 0
-  bartik: 0
   baggage: 0
 profile: standard
